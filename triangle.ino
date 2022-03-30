@@ -8,7 +8,7 @@ int byte_read;
 volatile int erreur=0;
 volatile int erreurgauche=0;
 
-const int maxPwm=150;// Vitesse max souhaitée de rotation de la roue
+const int maxPwm=100;// Vitesse max souhaitée de rotation de la roue
 
 const float kp=0.7;
 const float kpgauche=0.75;
