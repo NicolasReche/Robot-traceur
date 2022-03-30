@@ -10,8 +10,8 @@ volatile int erreurgauche=0;
 
 const int maxPwm=150;// Vitesse max souhaitée de rotation de la roue
 
-const float kp=0.75;
-const float kpgauche=0.8;
+const float kp=0.7;
+const float kpgauche=0.75;
 
 byte form=1;
 
