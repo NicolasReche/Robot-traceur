@@ -54,7 +54,7 @@ unsigned long currentTime=millis();
  
    if(currentTime<3000){
  
-  consigne_posgauche=5*1883+7;
+  consigne_posgauche=5*1883;
   }
 
 }
