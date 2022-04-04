@@ -8,10 +8,10 @@ int byte_read;
 volatile int erreur=0;
 volatile int erreurgauche=0;
 
-const int maxPwm=100;// Vitesse max souhaitée de rotation de la roue
+const int maxPwm=150;// Vitesse max souhaitée de rotation de la roue
 
-const float kp=0.7;
-const float kpgauche=0.75;
+const float kp=0.75;
+const float kpgauche=0.8;
 
 byte form=1;
 
@@ -79,11 +79,10 @@ if(currentTime<1500){
    consigne_pos=4*1883;
     consigne_posgauche=12849+1883;
     }
-    if(currentTime>10500&&currentTime<12000){
+    if(currentTime>10500&&currentTime<11000){
    
    consigne_posgauche=15000+2400;
-   }
-
+    }
 
 }
 
